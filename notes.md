@@ -1,4 +1,4 @@
-#Supervised Learning
+# Supervised Learning
 * Training ML models using data that is labelled
 * Categorical and Numerical Data
     Numerical Data : continous form like price of stock
