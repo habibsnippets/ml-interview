@@ -109,3 +109,25 @@
 * Variance Inflation Factor
     Measure multicollinearity in multiple regression models
     
+    > VIF = 1/(1-R^2)
+    where R is the coefficient of determination
+    VIF -> 1  ~ no relation w other variables
+    If R**2 is -> 1 ~ VIF -> large -> high multicollinearity
+
+* What is Autocorrelation (serial correlation) and how it is checked?
+    Situation in which the error terms of one observation are affected by error terms of nearby observation.
+
+    test that is used to check it is called "Durbin-Watson Statistic".
+    d<2: positive correlation -> errors depend positively on each other
+    d ~= 2: no dependency
+    d>2 : negative autocorrelation
+
+* Polynomial regression
+    variable depends on other variables, at least
+    of a polynomial of some certain degree
+
+
+// to study today:
+GB Tress
+ADABoost 
+Model Eval
